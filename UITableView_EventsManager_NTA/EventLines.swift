@@ -25,7 +25,7 @@ class EventLines
     //Hàm trả về List các sụ kiện
     class func eventLines() -> [EventLines]
     {
-        return [self.ngayThuHai(), self.ngayThuBa(), self.ngayThuTu(), self.ngayThuNam(), self.ngayThuSau(), self.ngayThuBay(),self.ngayChuNhat()]
+        return [self.ngayChuNhat(),self.ngayThuHai(), self.ngayThuBa(), self.ngayThuTu(), self.ngayThuNam(), self.ngayThuSau(), self.ngayThuBay()]
     }
     
     // Hàm xử lí thêm sự kiện trong ngày Thứ Hai
